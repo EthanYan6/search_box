@@ -1,0 +1,56 @@
+.index {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -42px;
+    margin-left: -93.5px;
+}
+.text {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -301px;
+    width:502px; 
+    height: 42px; 
+    outline: none;
+    font-size: 18px;
+}
+.button {
+    position: fixed;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 100px;
+    height: 48px;
+    left: 50%;
+    top: 50%;
+    margin-left: 205px;
+    /* 规定完成过渡效果需要花费的时间 */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
