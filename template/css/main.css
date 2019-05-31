@@ -21,7 +21,7 @@
     border: none;
     font-size: 18px;
     color: #FFFFFF;
-    width: 100px;
+    width: 110px;
     height: 48px;
     left: 50%;
     top: 50%;
@@ -53,4 +53,8 @@
     margin: 0;
     opacity: 1;
     transition: 0s
+}
+#article {
+    margin-left: 317px;
+    width: 140px;
 }
