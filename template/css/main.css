@@ -5,6 +5,7 @@
     margin-top: -42px;
     margin-left: -93.5px;
 }
+
 .text {
     position: fixed;
     left: 50%;
@@ -14,7 +15,8 @@
     height: 42px; 
     outline: none;
     font-size: 18px;
-}
+} 
+
 .button {
     position: fixed;
     background-color: #4CAF50;
@@ -54,6 +56,28 @@
     opacity: 1;
     transition: 0s
 }
+
+.note {
+    position: fixed;
+    top: 40%;
+    
+}
+/* 页面底部样式 */
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 38%;
+    margin:30px 0;
+    
+}
+
+.foot_link{text-align:center;margin-top:30px;}
+.foot_link a,.foot_link span{color:#4e4e4e;}
+.foot_link a:hover{color:#15ff00}
+.foot_link span{padding:0 10px}
+.footer p{text-align:center; margin-top:10px;}
+
+
 #article {
     margin-left: 317px;
     width: 140px;
